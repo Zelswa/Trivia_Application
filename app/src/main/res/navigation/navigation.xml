@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/homePage">
+
+    <fragment
+        android:id="@+id/homePage"
+        android:name="com.example.zelswa_180112_triviaapp.HomePage"
+        android:label="fragment_home_page"
+        tools:layout="@layout/fragment_home_page" >
+        <action
+            android:id="@+id/action_homePage_to_categorySelected"
+            app:destination="@id/categorySelected" />
+    </fragment>
+    <fragment
+        android:id="@+id/categorySelected"
+        android:name="com.example.zelswa_180112_triviaapp.CategorySelected"
+        android:label="fragment_category_selected"
+        tools:layout="@layout/fragment_category_selected" >
+        <action
+            android:id="@+id/action_categorySelected_to_score"
+            app:destination="@id/score" />
+        <action
+            android:id="@+id/action_categorySelected_to_scoreIfLost"
+            app:destination="@id/scoreIfLost" />
+    </fragment>
+    <fragment
+        android:id="@+id/score"
+        android:name="com.example.zelswa_180112_triviaapp.Score"
+        android:label="fragment_score"
+        tools:layout="@layout/fragment_score" >
+        <action
+            android:id="@+id/action_score_to_homePage"
+            app:destination="@id/homePage" />
+    </fragment>
+    <fragment
+        android:id="@+id/scoreIfLost"
+        android:name="com.example.zelswa_180112_triviaapp.ScoreIfLost"
+        android:label="fragment_score_if_lost"
+        tools:layout="@layout/fragment_score_if_lost" >
+        <action
+            android:id="@+id/action_scoreIfLost_to_homePage"
+            app:destination="@id/homePage" />
+    </fragment>
+</navigation>

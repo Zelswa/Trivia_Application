@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Zelswa_180112_TriviaApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="batman_btn">BATMAN</string>
+    <string name="superman_btn">SUPERMAN</string>
+    <string name="ironman_btn">IRONMAN</string>
+    <string name="flash_btn">FLASH</string>
+    <string name="create_btn">CREATE YOUR OWN</string>
+    <string name="welcome_msg">Hi there! Welcome</string>
+    <string name="choose_msg">CHOOSE A SUPERHERO CATEGORY</string>
+    <string name="category_selected_msg">CATEGORY SELECTED</string>
+    <string name="question_one_msg">QUESTION ONE</string>
+    <string name="answer_radiobtn_1">ANSWER ONE</string>
+    <string name="answer_radiobtn_2">ANSWER TWO</string>
+    <string name="answer_radiobtn_3">ANSWER THREE</string>
+    <string name="score_msg">SCORE</string>
+    <string name="actual_score_calculation">NUMBER/NUMBER</string>
+    <string name="congrats_msg">CONGRATS! WANT TO PLAY AGAIN?</string>
+    <string name="play_again_btn">PLAY AGAIN</string>
+    <string name="submit_answer_btn">SUBMIT</string>
+    <string name="radiobutton1">RadioButton</string>
+    <string name="radiobutton2">RadioButton</string>
+    <string name="radiobutton3">RadioButton</string>
+    <string name="scoreIfLost">SCORE</string>
+    <string name="play_again_If_lost">PLAY AGAIN</string>
+    <string name="scoreOnCategory">SCORE</string>
+    <string name="oops_want_to_try_again">OOPS! WANT TO TRY AGAIN?</string>
+    <string name="tryAgain">Button</string>
+</resources>
